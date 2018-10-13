@@ -1,0 +1,32 @@
+private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
+			 
+			 StreamReader^ re=gcnew StreamReader("stu.txt");
+				 while (!re->EndOfStream)
+				 {
+					 if (splite_string(re->ReadLine()))
+					 {
+						 break;
+					 } 
+				 }
+				 re->Close();
+		 }
+
+		 //// function //////
+		 int splite_string(String^ s)
+		{
+			 
+				 
+				 array<String^>^result;
+				 array<Char>^splitChars = {'\t '};
+				 result = s->Split(splitChars , StringSplitOptions::None );
+				 if (result[0]->ToLower()==textBox1->Text->ToLower())
+				 {
+					 textBox1->Text=result[0];
+				 textBox2->Text=result[1];
+				 textBox3->Text=result[2];
+				 listBox1->SelectedItem=result[3];
+				 comboBox1->SelectedItem=result[4];
+				 return 1;
+				 }
+				 
+		}

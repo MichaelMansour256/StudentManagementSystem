@@ -1,0 +1,8 @@
+1	 ahmed	 nagy	 yes	100	100	100	100	100	200
+1	 ahmed	 nabil	 yes	100	100	100	100	100	200
+1	 ahmed	 naser	 yes	100	100	100	100	100	200
+1	 ahmed	 hany	 yes	50	100	100	100	100	200
+1	 ahmed	 gmal	 yes	100	100	100	100	100	200
+1	 ahmed	 ahmed	 yes	100	180	100	100	100	250
+1	 ahmed	 serag	 yes	100	100	100	100	100	200
+1	 ahmed	 shokry	 yes	100	100	100	100	100	200
